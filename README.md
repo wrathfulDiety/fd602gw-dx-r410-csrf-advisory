@@ -2,7 +2,7 @@
 CSRF vulnerability in FD602GW-DX-R410 router allows remote attackers to reboot the device via a crafted POST request to /boaform/admin/formReboot when an admin is authenticated.
 
 
-# CVE-2025-XXXXX: Security Advisory – CSRF Vulnerability in FD602GW-DX-R410 Router Reboot Function
+# CVE-2025-56311: Security Advisory – CSRF Vulnerability in FD602GW-DX-R410 Router Reboot Function
 
 Proof of Concept and Security Advisory for a Cross-Site Request Forgery (CSRF) vulnerability in the FD602GW-DX-R410 fiber router’s admin interface (Firmware V2.2.14). The advisory outlines the impact, attack vector, and recommendations for remediation.
 
@@ -12,7 +12,7 @@ Proof of Concept and Security Advisory for a Cross-Site Request Forgery (CSRF) v
 
 A Cross-Site Request Forgery (CSRF) vulnerability was discovered in the FD602GW-DX-R410 fiber router’s web-based admin console (Firmware V2.2.14). The `/boaform/admin/formReboot` endpoint allows POST requests to trigger a full device reboot without CSRF tokens or origin validation. If an authenticated administrator visits a malicious page, the router can be remotely rebooted without consent.
 
-* **CVE ID:** CVE-2025-XXXXX
+* **CVE ID:** CVE-2025-56311
 * **Advisory Publication Date:** July 2025
 * **Discovered by:** Hasanka Amarasinghe (Independent Security Researcher)
 * **Vendor:** Shenzhen C-Data Technology Co., Ltd.
@@ -116,6 +116,7 @@ HTTP 200 OK; Router reboots immediately.
 | Jun 2025 | Attempted responsible disclosure (no reply) |
 | Jul 2025 | CVE ID requested from MITRE                 |
 | Jul 2025 | Advisory prepared and pending publication   |
+| Sep 2025 | CVE Assigned, Advisory made public          |
 
 ---
 
