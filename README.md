@@ -1,10 +1,12 @@
-# fd602gw-dx-r410-csrf-advisory
-CSRF vulnerability in FD602GW-DX-R410 router allows remote attackers to reboot the device via a crafted POST request to /boaform/admin/formReboot when an admin is authenticated.
 
 
 # CVE-2025-56311: Security Advisory – CSRF Vulnerability in FD602GW-DX-R410 Router Reboot Function
 
 Proof of Concept and Security Advisory for a Cross-Site Request Forgery (CSRF) vulnerability in the FD602GW-DX-R410 fiber router’s admin interface (Firmware V2.2.14). The advisory outlines the impact, attack vector, and recommendations for remediation.
+
+# fd602gw-dx-r410-csrf-advisory
+CSRF vulnerability in FD602GW-DX-R410 router allows remote attackers to reboot the device via a crafted POST request to /boaform/admin/formReboot when an admin is authenticated.
+
 
 ---
 
