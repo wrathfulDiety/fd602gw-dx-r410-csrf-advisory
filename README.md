@@ -125,7 +125,7 @@ HTTP 200 OK; Router reboots immediately.
 * Vendor: Shenzhen C-Data Technology Co., Ltd.
 * Device: FD602GW-DX-R410
 * Firmware: V2.2.14
-* GitHub Advisory: *\[link once public]*
+* GitHub Advisory: https://github.com/wrathfulDiety/CVE-2025-56311
 
 ---
 
