@@ -25,7 +25,7 @@ A Cross-Site Request Forgery (CSRF) vulnerability was discovered in the FD602GW-
 * **Severity:** Medium
 * **CVSS v3.1 Base Score:** 5.4 (Medium)
 
----
+--- 
 
 ## Affected Product
 
